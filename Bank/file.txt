@@ -1,0 +1,5 @@
+Bob:10
+Alice:48.50
+McKenzie:33
+Samantha:28.01
+Kyle:Fifty # Invalid Line
