@@ -11,7 +11,7 @@ Timeout: 10 minutes
  
 
 ### Implementation
-Your task is to complete the `covid_detector` class.
+Your task is to complete the `DayCareSystem` class.
 
 `initialize()`  
 **Description:** You will have to decide the proper data structure(s) for storing the data needed for the rest of the outlined functions. Initialize any necessary data structures in this method.
