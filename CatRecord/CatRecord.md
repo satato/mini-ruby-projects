@@ -3,7 +3,9 @@ It’s kitten season now, and every shelter takes in many kittens everyday. For 
 
 For implementing this program, you are given a file named record.txt which contains every cat’s information in the shelter, one line for each cat. Each line should be the following format:
 
-`<Cat Name\>, <Take-in date\>, <Available Status\>`
+```
+<Cat Name\>, <Take-in date\>, <Available Status\>
+```
  
 We define a **valid line** as follows:
 - Cat name should start with **uppercase letter** followed by** one or more lowercase letters**.
