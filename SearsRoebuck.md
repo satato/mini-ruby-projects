@@ -46,7 +46,7 @@ Your task is to complete the `SearsRoebuck` class.
 **Description:** Returns the total amount of money the Sears Roebuck Company made from sales of the kit homes. If no sales are made, return 0.
 
 **Examples:**
-Suppose sales.txt contains all lines from the example of valid lines.
+Suppose `sales.txt` contains all lines from the example of valid lines.
 
 ```
 s = SearsRoebuck.new('sales.txt')  
