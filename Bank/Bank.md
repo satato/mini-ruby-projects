@@ -18,7 +18,7 @@ Samantha:28.01
 Kyle:Fifty # Invalid Line  
 
 `transfer(from, to, amount)`  
-**Description:** The winner of the election is the candidate who won in the most districts. Return a string containing the overall winner, either "AM" or "DVH". Again, assume there is no tie.
+**Description:** takes in an account name from, account name to, and a transfer amount. It returns true if the transaction succeeds, or false if either of the accounts do not exist or the from account doesn’t have enough ZebraCash to complete the transfer. If false is returned, neither account’s balance should change.
 
 `whoIsTheRichest()`  
-**Description:** The winner of the election is the candidate who won in the most districts. Return a string containing the overall winner, either "AM" or "DVH". Again, assume there is no tie.
+**Description:** returns the name of the account in your bank who currently has the highest ZebraCash total. Return nil if there are currently no accounts in your bank.
