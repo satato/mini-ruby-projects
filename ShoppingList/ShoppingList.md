@@ -7,7 +7,7 @@ Your task is to complete the `ShoppingList` class.
 `add_item(name, quantity)`  
 **Description:** This method should add an item with the given name and quantity into the shopping list. You can assume the name will always be a String and the quantity will always be an Integer. If the name of the item already exists in the shopping list, add the specified quantity to its current quantity. This method should return nil.
 
-`remove_item() {|name, quantity| block}`  
+`remove_items() {|name, quantity| block}`  
 **Description:** This method should remove all items from the shopping list that make the code block evaluate to a truthy value. The passed in code block accepts as an argument the name and quantity of an item in the shopping_list. The state of the @shopping_list should be changed by the removal of the affected items. This method should return the number of items that were removed.
 
 `prune_shopping_list(item_prices, item_budget)`  
