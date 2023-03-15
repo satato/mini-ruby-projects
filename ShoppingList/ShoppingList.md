@@ -24,7 +24,11 @@ list.add_item("plantains", 5)
 ```
 
 **The below line removes orange and plantains from the hash, and returns 2**  
-`list.remove_items() { |name, quantity| quantity == 7 }`  
+```
+list.remove_items() { |name, quantity| quantity == 7 }
+```  
 
 **The below line returns a new shopping list with banana as the only item**  
-`list.prune_shopping_list({"banana" => 2, "guava" => 3}, {"banana" => 20, "guava" => 25})`
+```
+list.prune_shopping_list({"banana" => 2, "guava" => 3}, {"banana" => 20, "guava" => 25})
+```
