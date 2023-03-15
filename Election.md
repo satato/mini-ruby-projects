@@ -1,11 +1,15 @@
 # Election.rb
 There is an election and you have been given the very important task of calculating who will be the future president. DVH of the Racket party is up against Anwar Mamat of the C++ party. You will receive a file with votes on each line and you must tally them up. Each line in the file will correspond to a voting district. Lines will have the following form:
 
-`Dist[<id>]: <votes>`
+```
+Dist[<id>]: <votes>
+```
  
 The id a 6-digit number, and is a comma-separated list of votes, each of which is either AM or DVH. For example, a line might look like the following:
 
-`Dist[012345]: DVH,AM,DVH,AM,AM`
+```
+Dist[012345]: DVH,AM,DVH,AM,AM
+```
 
 This means in district 012345, DVH got 3 votes and AM got 3 votes.
 
