@@ -5,7 +5,7 @@ The goal of the course registration system is to allow students to add/drop clas
 Each line of **courses.txt** should be the following format:
 
 ```
-<Course\>, <Seats\>
+<Course>, <Seats>
 ```
  
 We define a **valid line** as follows:
