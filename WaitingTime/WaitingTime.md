@@ -6,7 +6,7 @@ for each time they went to office hours.
 Each line in **waiting.txt** should be of the following format:
 
 ```
-<Last name\>, <First name\>, <Minutes\>:<Seconds\>
+<Last name>, <First name>, <Minutes>:<Seconds>
 ```
  
 We define a **valid line** as follows:
