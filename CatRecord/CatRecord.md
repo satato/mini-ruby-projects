@@ -28,7 +28,7 @@ Mika, 2/2/2022, Adopted
 ```
   
 ### Implementation
-Your task is to complete the `covid_detector` class.
+Your task is to complete the `CatRecord` class.
 
 `initialize(filename)`  
 **Description:** : Reads the file and parses the contents.
