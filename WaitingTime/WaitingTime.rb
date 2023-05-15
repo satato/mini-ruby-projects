@@ -17,8 +17,15 @@ class WaitingTime
                 if @students[student_name] == nil
                     # students are associated with a list in the format: [minutes, seconds]
                     @students[student_name] = [mins.to_i, secs.to_i]
+                # if student already exists, adds to their time spent waiting.
+                else
+                    og_min = @students[student_name][0]
+                    og_sec =  @students[student_name][1]
+                    s = (secs.to_i + og_sec) % 60
+                    m = mins.to_i + og_min + (secs.to_i + og_sec) / 60
+
+                    @students[student_name] = [m, s]
                 end
-                # if student already exists, ignores.
             end
         end
     end
