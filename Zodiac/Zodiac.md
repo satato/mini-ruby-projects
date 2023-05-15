@@ -4,7 +4,7 @@ The Chinese Zodiac is represented by 12 zodiac animals: The Rat, Ox, Tiger, Rabb
 You are given a file named zodiac.txt which contains the zodiac animal associated with every year from 1981 to 2028. Each line should be the following format:
 
 ```
-<Zodiac Animal\>, <Years\>
+<Zodiac Animal>, <Year 1>, <Year 2>, <...>, <Year n>
 ```
  
 We define a **valid line** as follows:
